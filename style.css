@@ -1,0 +1,214 @@
+*{
+margin:0;
+padding:0;
+box-sizing:border-box;
+font-family:'Segoe UI',sans-serif;
+scroll-behavior:smooth;
+}
+
+body{
+background:#f5f7fa;
+}
+
+nav{
+display:flex;
+justify-content:space-between;
+align-items:center;
+padding:20px 80px;
+background:#0f172a;
+position:sticky;
+top:0;
+z-index:1000;
+}
+
+.logo{
+font-size:28px;
+font-weight:bold;
+color:white;
+}
+
+nav ul{
+display:flex;
+list-style:none;
+gap:25px;
+}
+
+nav ul li a{
+color:white;
+text-decoration:none;
+font-weight:500;
+}
+
+.hero{
+height:100vh;
+display:flex;
+flex-direction:column;
+justify-content:center;
+align-items:center;
+text-align:center;
+background:linear-gradient(135deg,#0f172a,#1e293b);
+color:white;
+padding:20px;
+}
+.hero h1{
+font-size:60px;
+color:white;
+font-weight:700;
+margin-bottom:15px;
+}
+.hero h2{
+color:#cbd5e1;
+margin-bottom:20px;
+}
+
+.hero p{
+color:#e2e8f0;
+font-size:20px;
+line-height:1.8;
+max-width:800px;
+}
+.hero h3{
+font-size:24px;
+margin-bottom:10px;
+}
+
+.hero-buttons{
+margin-top:20px;
+}
+
+.hero-buttons button{
+margin:10px;
+}
+.hero h1{
+font-size:55px;
+margin-bottom:10px;
+}
+
+.hero h2{
+margin-bottom:15px;
+}
+
+.hero p{
+max-width:700px;
+font-size:20px;
+}
+
+button{
+padding:12px 25px;
+border:none;
+border-radius:8px;
+margin-top:20px;
+cursor:pointer;
+font-size:16px;
+}
+
+.stats{
+display:flex;
+justify-content:center;
+gap:40px;
+padding:50px;
+background:white;
+flex-wrap:wrap;
+}
+
+.stat{
+text-align:center;
+}
+
+section{
+padding:80px;
+}
+
+section h1{
+text-align:center;
+margin-bottom:40px;
+color:#2563eb;
+}
+
+#about p{
+text-align:center;
+max-width:900px;
+margin:auto;
+line-height:1.8;
+font-size:18px;
+}
+
+.cards{
+display:flex;
+justify-content:center;
+gap:20px;
+flex-wrap:wrap;
+}
+
+.card{
+background:white;
+padding:20px;
+border-radius:10px;
+box-shadow:0 0 10px rgba(0,0,0,0.1);
+transition:0.3s;
+}
+
+.card:hover{
+transform:translateY(-10px);
+}
+
+.project{
+background:white;
+padding:25px;
+margin-bottom:20px;
+border-radius:10px;
+box-shadow:0 0 10px rgba(0,0,0,0.1);
+transition:0.3s;
+}
+
+.project:hover{
+transform:scale(1.03);
+}
+
+.education{
+background:white;
+padding:30px;
+border-radius:10px;
+box-shadow:0 0 10px rgba(0,0,0,0.1);
+text-align:center;
+}
+
+#contact{
+text-align:center;
+}
+
+#contact p{
+margin:10px;
+}
+
+footer{
+background:#0d6efd;
+color:white;
+text-align:center;
+padding:25px;
+}
+
+@media(max-width:768px){
+
+nav{
+flex-direction:column;
+}
+
+nav ul{
+flex-wrap:wrap;
+justify-content:center;
+margin-top:10px;
+}
+
+.hero h1{
+font-size:35px;
+}
+
+.hero h2{
+font-size:20px;
+}
+
+.stats{
+flex-direction:column;
+}
+}
